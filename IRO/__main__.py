@@ -440,10 +440,10 @@ def IRO_about_callback(update, context):
                 [
                  [
         InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/shaeep43"),
+        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/The_clan_killer_12"),
                  ],
                  [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ", url=f"https://github.com/IR-O/IRO_ROBOT"),
+        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ", url=f"https://telegra.ph/file/d6c6c84de1de94a6689be.mp4"),
                  ],
                  [
                     InlineKeyboardButton(text="◁", callback_data="IRO_back"),
@@ -780,7 +780,7 @@ def main():
                 caption=f"""
 ㅤ{dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
 ━━━━━━━━━━━━━
-» **ᴏᴡɴᴇʀ :** [Pi͢͢͢kสcђu♡](https://t.me/{OWNER_USERNAME})
+» **ᴏᴡɴᴇʀ :** [ꫝ. ɪᴛᴀᴄʜɪ ᴜᴄʜɪʜᴀ](https://t.me/{OWNER_USERNAME})
 » **ʟɪʙʀᴀʀʏ  :** `{so}`
 » **ᴛᴇʟᴇᴛʜᴏɴ :** `{am}`
 » **ᴘʏʀᴏɢʀᴀᴍ :** `{do}`
@@ -788,7 +788,7 @@ def main():
 » **ꜱQʟᴀʟᴄʜᴇᴍʏ :** `1.4.31`
 ━━━━━━━━━━━━━
 
-⍟ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [𝙄𝙍𝙊](https://t.me/iro_bot_support)
+⍟ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [ᴄʀɪᴛɪᴄᴀʟ](https://t.me/criticalsupport)
 
 """,
                 parse_mode=ParseMode.MARKDOWN,
