@@ -17,7 +17,7 @@ async def repo(_, message: Message):
 
 ɪ ᴀᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [Pi͢͢͢kสcђu♡](https://t.me/{OWNER_USERNAME})
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [ꫝ. ɪᴛᴀᴄʜɪ ᴜᴄʜɪʜᴀ](https://t.me/{OWNER_USERNAME})
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -29,7 +29,7 @@ async def repo(_, message: Message):
                     InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER_ID),
                     InlineKeyboardButton(
                         "sᴏᴜʀᴄᴇ",
-                        url="https://github.com/IR-O/IRO_ROBOT",
+                        url="https://telegra.ph/file/d6c6c84de1de94a6689be.mp4",
                     ),
                 ]
             ]
