@@ -8,7 +8,7 @@ from pyrogram import filters
 from pyrogram.types import Message,InlineKeyboardButton,InlineKeyboardMarkup
 from pyrogram.enums import *
 #NAME -> YOUR BOTS FILE NAME 
-from MukeshRobot import pbot as app
+from IRO import pbot as app
 
 
 @app.on_message(filters.command("cosplay"))
