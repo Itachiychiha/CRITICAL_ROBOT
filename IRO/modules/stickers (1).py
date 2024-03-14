@@ -9,7 +9,7 @@ from urllib.parse import quote as urlquote
 import cv2
 import IRO
 from bs4 import BeautifulSoup
-from cloudscraper import CloudScraper
+from IRO import IRO
 import requests
 from bs4 import BeautifulSoup as bs
 from PIL import Image
