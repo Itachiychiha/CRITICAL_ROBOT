@@ -23,10 +23,10 @@ from telethon.errors import (
 )
 from telethon.sessions import StringSession
 
-from MukeshRobot import app
-from MukeshRobot.vars import API_HASH, API_ID, COMMAND_HANDLER
+from IRO import app
+from IRO.vars import API_HASH, API_ID, COMMAND_HANDLER
 
-LOGGER = getLogger("MukeshRobot")
+LOGGER = getLogger("IRO")
 
 __MODULE__ = "SessionGen"
 __HELP__ = """
