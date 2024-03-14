@@ -23,8 +23,8 @@ from telegram import (
 from telegram.ext import CallbackContext
 from telegram.utils.helpers import mention_html
 
-from MukeshRobot import dispatcher
-from MukeshRobot.modules.disable import DisableAbleCommandHandler
+from IRO import dispatcher
+from IRO.modules.disable import DisableAbleCommandHandler
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
