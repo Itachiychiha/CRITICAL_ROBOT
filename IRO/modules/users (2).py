@@ -10,10 +10,10 @@ from telegram.ext import (
     MessageHandler,
 )
 
-import IRO.module.sql.users_sql as sql
+import IRO.modules.sql.users_sql as sql
 from IRO import DEV_USERS, LOGGER, OWNER_ID, dispatcher
-from IRO.module.helper_funcs.chat_status import dev_plus, sudo_plus
-from IRO.module.sql.users_sql import get_all_users
+from IRO.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from IRO.modules.sql.users_sql import get_all_users
 
 USERS_GROUP = 4
 CHAT_GROUP = 5
