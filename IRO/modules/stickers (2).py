@@ -16,8 +16,8 @@ from telegram import (
 from telegram.ext import CallbackContext, run_async
 from telegram.utils.helpers import mention_html
 
-from Nobita_X_Robot import dispatcher
-from Nobita_X_Robot.modules.disable import DisableAbleCommandHandler
+from IRO import dispatcher
+from IRO.modules.disable import DisableAbleCommandHandler
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
