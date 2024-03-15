@@ -12,11 +12,11 @@ from telegram.ext import (
     run_async,
 )
 
-import Nobita_X_Robot.modules.sql.users_sql as sql 
-from Nobita_X_Robot import pbot as app
-from Nobita_X_Robot import DEV_USERS, LOGGER, OWNER_ID, dispatcher
-from Nobita_X_Robot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
-from Nobita_X_Robot.modules.sql.users_sql import get_all_users
+import IRO.modules.sql.users_sql as sql 
+from IRO import pbot as app
+from IRO import DEV_USERS, LOGGER, OWNER_ID, dispatcher
+from IRO.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from IRO.modules.sql.users_sql import get_all_users
 
 USERS_GROUP = 4
 CHAT_GROUP = 5
