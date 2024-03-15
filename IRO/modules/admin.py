@@ -6,11 +6,11 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-from Nobita_X_Robot import DRAGONS, dispatcher,OWNER_ID
-from Nobita_X_Robot.modules.disable import DisableAbleCommandHandler
-from Nobita_X_Robot.modules.helper_funcs.admin_rights import user_can_changeinfo
-from Nobita_X_Robot.modules.helper_funcs.alternate import send_message
-from Nobita_X_Robot.modules.helper_funcs.chat_status import (
+from IRO import DRAGONS, dispatcher,OWNER_ID
+from IRO.modules.disable import DisableAbleCommandHandler
+from IRO.modules.helper_funcs.admin_rights import user_can_changeinfo
+from IRO.modules.helper_funcs.alternate import send_message
+from IRO.modules.helper_funcs.chat_status import (
     ADMIN_CACHE,
     bot_admin,
     can_pin,
@@ -18,11 +18,11 @@ from Nobita_X_Robot.modules.helper_funcs.chat_status import (
     connection_status,
     user_admin,
 )
-from Nobita_X_Robot.modules.helper_funcs.extraction import (
+from IRO.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from Nobita_X_Robot.modules.log_channel import loggable
+from IRO.modules.log_channel import loggable
 
 
 @run_async
