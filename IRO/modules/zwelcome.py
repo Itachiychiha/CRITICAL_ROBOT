@@ -8,7 +8,7 @@ from logging import getLogger
 
 from MukeshRobot import pbot as app
 
-from MukeshRobot.database.wel_db import *
+from IRO.wel_db import *
 
 COMMAND_HANDLER = ". /".split() # COMMAND HANDLER
 
