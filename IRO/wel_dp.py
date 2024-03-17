@@ -1,4 +1,4 @@
-from MukeshRobot.database import *
+from IRO import *
 
 wlcm = dbname["welcome"]
 
