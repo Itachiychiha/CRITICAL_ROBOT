@@ -7,7 +7,7 @@ from logging import getLogger
 
 from IRO import pbot as app
 
-from IRO.wel_db.py import *
+from IRO.Modules.wel_db.py import *
 
 COMMAND_HANDLER = ". /".split() # COMMAND HANDLER
 
