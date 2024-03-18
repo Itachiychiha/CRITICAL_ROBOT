@@ -5,7 +5,7 @@ from PIL import ImageDraw, Image, ImageFont, ImageChops
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
-from MukeshRobot import pbot as app
+from IRO import pbot as app
 
 LOGGER = getLogger(__name__)
 
@@ -46,13 +46,13 @@ def circle(pfp, size=(450, 450)):
 
 
 def welcomepic(pic, user, chatname, id, uname):
-    background = Image.open("MukeshRobot/resources/bg.jpg")
+    background = Image.open("IRO/IROfont/bg.jpg")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
     pfp = pfp.resize((450, 450))
     draw = ImageDraw.Draw(background)
-    font = ImageFont.truetype('MukeshRobot/resources/SwanseaBold-D0ox.ttf', size=40)
-    welcome_font = ImageFont.truetype('MukeshRobot/resources/SwanseaBold-D0ox.ttf', size=60)
+    font = ImageFont.truetype('IRO/IROfont/SwanseaBold-D0ox.ttf', size=40)
+    welcome_font = ImageFont.truetype('IRO/IROfont/SwanseaBold-D0ox.ttf', size=60)
     draw.text((30, 300), f'NAME: {user}', fill=(255, 255, 255), font=font)
     draw.text((30, 370), f'ID: {id}', fill=(255, 255, 255), font=font)
     draw.text((30, 430), f"USERNAME : {uname}", fill=(255, 255, 255), font=font)
@@ -77,7 +77,7 @@ async def greet_group(_, member: ChatMemberUpdated):
             user.photo.big_file_id, file_name=f"pp{user.id}.png"
         )
     except AttributeError:
-        pic = "MukeshRobot/resources/bg.jpg"
+        pic = "IRO/IROfont/bg.jpg"
     if (temp.MELCOW).get(f"welcome-{member.chat.id}") is not None:
         try:
             await temp.MELCOW[f"welcome-{member.chat.id}"].delete()
